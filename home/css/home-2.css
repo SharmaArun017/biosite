@@ -63,6 +63,12 @@
   position: relative;
   white-space: nowrap;
   width: fit-content;
+  cursor: pointer; /* Show hand cursor on hover */
+  text-decoration: none; /* Ensure there's no underline for links */
+}
+
+.home-2 .link-text:hover {
+  color: #4682B4; /* Optional: Change color on hover */
 }
 
 .home-2 .nav-link-dropdown {
@@ -72,7 +78,10 @@
   gap: 4px;
   justify-content: center;
   position: relative;
+  cursor: pointer; /* Show hand cursor on hover */
+  text-decoration: none; /* Remove underline from the link */
 }
+
 
 .home-2 .actions-1 {
   align-items: center;
@@ -294,6 +303,25 @@
   height: 738px;
   width: 100%;
 }
+/* Circular placeholder image styling */
+.placeholder-image-1,
+.placeholder-image-3 {
+  width: 100px; /* Adjust this size based on your preference */
+  height: 100px; /* Same as width for a circular shape */
+  border-radius: 50%; /* This creates the circular shape */
+  object-fit: cover; /* Ensures the image fits well inside the circle */
+  border: 2px solid #333; /* Optional: Add a border */
+}
+
+/* Full-size images that fit within the screen */
+.placeholder-image-4,
+.placeholder-image-5 {
+  width: 100%; /* Make the image take the full width of the screen */
+  height: 100vh; /* Set the height to fill the entire viewport height */
+  object-fit: cover; /* Ensure the image covers the container without distortion */
+  max-width: 100%; /* Prevent the image from overflowing the container */
+  max-height: 100vh; /* Ensure it doesn't go beyond the screen height */
+}
 
 .home-2 .section-title {
   align-items: center;
@@ -451,6 +479,15 @@
   flex-direction: column;
   gap: 16px;
   position: relative;
+}
+
+/* Circular avatar styling */
+.avatar-image {
+  width: 100px; /* Adjust this value to the size you prefer */
+  height: 100px; /* Make sure height matches width for a perfect circle */
+  border-radius: 50%; /* This creates the circular shape */
+  object-fit: cover; /* Ensures the image fits well within the circle */
+  border: 2px solid #333; /* Optional: Add a border if you'd like */
 }
 
 .home-2 .text-4 {
@@ -821,11 +858,24 @@
 .home-2 .button-8 {
   color: var(--black);
   font-weight: 400;
+  cursor: pointer; /* Show hand cursor on hover */
   line-height: 24px;
   position: relative;
   white-space: nowrap;
   width: fit-content;
+  text-decoration: none; /* Ensure there's no underline for links */
 }
+.button {
+  color: var(--black); /* Assuming this is needed for the Login button */
+  font-weight: 400;
+  cursor: pointer;
+  line-height: 24px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+  text-decoration: none; /* Ensure no underline for links */
+}
+
 
 .home-2 .footer {
   display: inline-flex;

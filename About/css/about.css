@@ -527,8 +527,10 @@
 
 .about .placeholder-image {
   flex-grow: 1;
-  height: 304px;
-  object-fit: cover;
+  height: 304px; /* Set the height for larger images */
+  object-fit: cover; /* Ensures the image fills the area without distortion */
+  border-radius: 20px; /* Creates circular rectangle effect */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adds subtle drop shadow */
 }
 
 .about .section-title-1 {
@@ -600,7 +602,9 @@
 
 .about .placeholder-image-1 {
   height: 80px;
-  width: 80px;
+  width: 80px; /* Small circular image */
+  border-radius: 50%; /* Creates a fully circular image */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Drop shadow for smaller circular image */
 }
 
 .about .content-1 {
@@ -1497,6 +1501,7 @@
   .about .content-7 img {
     max-width: 100%;
     height: auto;
+    object-fit: cover; /* Ensures the image fits within the container */
   }
 }
 
