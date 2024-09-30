@@ -1,4 +1,24 @@
 /* screen - home-2 */
+/* Applying Montserrat to Headers */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Applying Open Sans to Body Text */
+body, p, .text, .content, .link-text {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Apply Open Sans to all .text classes */
+.text-1, .text-2, .text-3, .text-4, .text-5, .text-6, .text-7, .text-8, .text-9, .text-10, .text-11, .text-12, .text-13, .text-14, .text-15 {
+  font-family: 'Open Sans', sans-serif;
+}
+/*=========================================
+*/
+.color-dark {
+  width: 120px;
+  height: 200px;
+}
 
 .home-2 {
   align-items: flex-start;
@@ -963,3 +983,4 @@
   color: var(--black);
   position: relative;
 }
+

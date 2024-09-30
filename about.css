@@ -1,5 +1,40 @@
 /* screen - about */
 
+/* Apply Open Sans to all .text classes */
+.text, .text-1, .text-2, .text-3, .text-4, .text-5, .text-6, .text-7, .text-8, .text-9, .text-10, .text-11, .text-12, .text-13, .text-14 {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.color-dark {
+  width: 120px !important;
+  height: 200px !important;
+}
+
+.about .page, .about .page-five {
+  font-family: 'Open Sans', sans-serif !important; /* or 'Montserrat', sans-serif */
+  color: var(--black);
+  font-weight: 600;
+  margin-top: -1.00px;
+  position: relative;
+  line-height: 24px;
+}
+
+.about .lorem-ipsum-dolor-si {
+  font-family: 'Open Sans', sans-serif !important; /* or 'Montserrat', sans-serif */
+  color: var(--black);
+  font-weight: 400;
+  line-height: 21px;
+  position: relative;
+}
+
+.about .lorem-ipsum-dolor-si-16, .about .lorem-ipsum-dolor-si-4 {
+  font-family: 'Open Sans', sans-serif !important; /* or 'Montserrat', sans-serif */
+  color: var(--black);
+  font-weight: 400;
+  line-height: 21px;
+  position: relative;
+}
+
 .about {
   align-items: flex-start;
   display: flex;
@@ -19,6 +54,7 @@
 }
 
 .about .content-2 {
+  font-family: 'Open Sans', sans-serif !important; /* or 'Montserrat', sans-serif */
   align-items: center;
   align-self: stretch;
   border-bottom-style: solid;
@@ -55,21 +91,23 @@
 }
 
 .about .link {
-  align-items: flex-start;
-  display: inline-flex;
-  flex: 0 0 auto;
-  gap: 10px;
-  position: relative;
+  font-family: 'Open Sans', sans-serif !important; /* or 'Montserrat', sans-serif */
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    position: relative;
 }
 
 .about .link-1 {
-  color: var(--black);
-  font-weight: 400;
-  line-height: 24px;
-  margin-top: -1.00px;
-  position: relative;
-  white-space: nowrap;
-  width: fit-content;
+  font-family: 'Open Sans', sans-serif; /* or 'Montserrat', sans-serif */
+    color: var(--black);
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
 }
 
 .about .nav-link-dropdown {
@@ -290,14 +328,15 @@
 }
 
 .about .content-4 {
-  align-items: flex-start;
-  align-self: stretch;
-  display: flex;
-  flex: 0 0 auto;
-  flex-direction: column;
-  gap: 16px;
-  position: relative;
-  width: 100%;
+  font-family: 'Open Sans', sans-serif !important; /* or 'Montserrat', sans-serif */
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+    width: 100%;
 }
 
 .about .link-one {
@@ -353,14 +392,15 @@
 }
 
 .about .content-5 {
-  align-items: flex-start;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  flex-grow: 1;
-  gap: 24px;
-  position: relative;
-  width: 768px;
+  font-family: 'Open Sans', sans-serif !important; /* or 'Montserrat', sans-serif */
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 24px;
+    position: relative;
+    width: 768px;
 }
 
 .about .short-heading-here {
@@ -377,6 +417,7 @@
 }
 
 .about .about-item {
+  font-family: 'Open Sans', sans-serif !important; /* or 'Montserrat', sans-serif */
   align-items: flex-start;
   background-color: var(--white);
   display: flex;
@@ -389,6 +430,7 @@
 }
 
 .about .content-6 {
+  font-family: 'Open Sans', sans-serif !important; /* or 'Montserrat', sans-serif */
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -480,6 +522,7 @@
 }
 
 .about .gallery-4 {
+  font-family: 'Open Sans', sans-serif !important; /* or 'Montserrat', sans-serif */
   align-items: center;
   background-color: var(--white);
   display: flex;
@@ -1025,6 +1068,7 @@
 }
 
 .about .footer-9 {
+  font-family: 'Open Sans', sans-serif !important; /* or 'Montserrat', sans-serif */
   align-items: center;
   background-color: var(--white);
   flex-direction: column;
@@ -1323,6 +1367,11 @@
   position: relative;
   white-space: nowrap;
   width: fit-content;
+  cursor: pointer; /* This makes the hand cursor appear on hover */
+}
+
+.about .button-7:hover {
+  background-color: #f0f0f0; /* Optional: Add a subtle background color change on hover */
 }
 
 .about .card-9 {

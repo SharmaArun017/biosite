@@ -1,5 +1,15 @@
 /* screen - hobbies-2 */
 
+/* Apply Open Sans to all .text classes */
+.text, .text-1, .text-2, .text-3, .text-4, .text-5 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.color-dark {
+  width: 120px !important;
+  height: 200px !important;
+}
+
 .hobbies-2 {
   align-items: flex-start;
   display: inline-flex;
@@ -109,6 +119,7 @@
   position: relative;
   white-space: nowrap;
   width: fit-content;
+  cursor: pointer; /* Hand cursor on hover */
 }
 
 .hobbies-2 .style-primary-small {
@@ -135,6 +146,7 @@
   position: relative;
   white-space: nowrap;
   width: fit-content;
+  cursor: pointer; /* Hand cursor on hover */
 }
 
 .hobbies-2 .mega-menu-1 {
